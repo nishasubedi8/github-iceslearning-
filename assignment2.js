@@ -46,3 +46,5 @@ const socialProfile = {
       return this.bookmarks;
     }
  };
+
+ console.log(socialProfile.like());
