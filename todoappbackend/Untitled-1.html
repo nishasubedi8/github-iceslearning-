@@ -1,0 +1,63 @@
+<<<<<<< main
+<html lang="en">  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO APP</title>
+    
+    <link rel="stylesheet" href="external.css">
+  </head>
+  <body>
+    <header>
+      <h1 font-size="24px" font-family='Great Vibes', cursive" align="center" style="background-color: lightgreen;"><i>REMAINDER</i></h1>
+    </header>
+    <div class="app-card">
+      <h1  style="background-color: lightblue" class="app=title"><i>To Do List</i></h1>
+      <button class="icon-button"id ="menu-button" aria-label="Menu">&#9776</button>
+      <button class="icon-button" id="edit-button" aria-label="Add">&#9998</button>
+      <button class="icon-button" id="delete-button" aria-label="Delete ">Delete  </button>
+    </div>
+    <div class="app-card">
+      <link rel="stylesheet" href="script.js">
+       <p style="color: #64748b;">Your tasks will appear here...</p>
+    </div>
+    
+  </body>
+</html>
+=======
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TO-DO LISt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>To-Do List</h1>
+    <input type="text" id="taskInput" placeholder="Enter a task">
+    <button id="addBtn">Add</button>
+    <p id="error"></p>
+    <ul id="taskList"></ul>
+    <p>Total Tasks: <span id="taskCount">0</span></p>
+    
+  </div>
+  <div class="filter-section">
+
+  <button id="allBtn">All</button>
+  <button id="activeBtn">Active</button>
+  <button id="completedBtn">Completed</button>
+
+  <br><br>
+
+  <input
+    type="text"
+    id="searchInput"
+    placeholder="Search tasks..."
+  >
+
+</div>
+  <script src="script.js"></script>
+  <script src="filter.js"></script>
+</body>
+</html>
